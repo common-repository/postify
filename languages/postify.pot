@@ -1,0 +1,41 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Postify\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-02 13:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3\n"
+"X-Domain: postify"
+
+#. Author URI of the plugin
+msgid "https://sakhawat.vercel.app/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wp-plugins.Sakhawat Hossain.net/postify/postify-free/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Porfessional Blog Post Layouts For WordPress"
+msgstr ""
+
+#. Name of the plugin
+msgid "Postify"
+msgstr ""
+
+#: public/class-postify-public.php:143 public/class-postify-public.php:294
+msgid "Read more"
+msgstr ""
+
+#. Author of the plugin
+msgid "Sakhawat Hossain"
+msgstr ""

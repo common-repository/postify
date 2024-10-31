@@ -1,0 +1,369 @@
+.postify__item .postify__btn.rounded a {
+  border-radius: 30px; }
+
+.postify__item .postify__btn a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #4F868F;
+  padding: 6px 20px;
+  font-size: 18px;
+  border-radius: 7px;
+  display: inline-block;
+  border: 1px solid currentColor; }
+  .postify__item  .postify__btn a i {
+    margin-left: 5px; }
+
+.postify__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .postify__pagination li {
+    list-style: none;
+    display: flex; }
+    .postify__pagination li a {
+      display: flex;
+      width: 40px;
+      height: 40px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #4F868F;
+      transition: all 0.3s;
+      color: #4F868F;
+      text-decoration: none; }
+    .postify__pagination li:hover a {
+      background-color: #4F868F;
+      color: #fff; }
+  .postify__pagination.pagination_left {
+    justify-content: start; }
+  .postify__pagination.pagination_right {
+    justify-content: right; }
+  .postify__pagination.pagination_rounded {
+    gap: 10px; }
+    .postify__pagination.pagination_rounded li a {
+      border-radius: 50%; }
+
+.postify {
+  position: relative;
+  padding-top: 45px; }
+  .postify__item {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px -2px rgba(20, 20, 31, 0.3);
+    margin-bottom: 40px; }
+    .postify__item .postify__item--thumbnail img {
+      width: 100%;
+      height: auto;
+      object-fit: cover; }
+    .postify__item .postify__item--category {
+      position: absolute;
+      top: 25px;
+      left: 25px; }
+      .postify__item .postify__item--category a {
+        color: #fff;
+        text-decoration: none;
+        background-color: #4F868F;
+        padding: 8px 12px;
+        border-radius: 7px;
+        font-size: 14px; }
+    .postify__item .postify__item__content {
+      padding: 30px; }
+      .postify__item .postify__item__content--meta a {
+        margin-bottom: 10px;
+        text-decoration: none;
+        font-size: 16px;
+        color: #808080;
+        position: relative;
+        padding-left: 10px;
+        display: inline-block; }
+        .postify__item .postify__item__content--meta a:after {
+          position: absolute;
+          content: "";
+          width: 6px;
+          height: 6px;
+          background-color: #808080;
+          left: 0px;
+          top: 50%;
+          transform: translateY(-50%);
+          border-radius: 100%; }
+      .postify__item .postify__item__content--title h3 {
+        margin-bottom: 10px;
+        font-size: 22px; }
+        .postify__item .postify__item__content--title h3 a {
+          color: #14141F;
+          text-decoration: none;
+          display: inline-block; }
+      .postify__item .postify__item__content--description p {
+        color: #808080;
+        font-size: 16px;
+        margin-bottom: 20px; }
+  .postify .swiper-container {
+    padding: 10px; }
+  .postify__wrapper {
+    position: relative; }
+  .postify [class*="swiper_button__"] {
+    width: 35px;
+    height: 35px;
+    background-color: #4F868F;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.3s; }
+    .postify [class*="swiper_button__"]:hover {
+      background-color: #14141F;
+      color: #fff; }
+  .postify .swiper_button__prev {
+    right: 55px; }
+  .postify .swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #4F868F; }
+
+.postify2 .postify__item {
+  position: relative; }
+  .postify2 .postify__item__content {
+    padding: 15px;
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #28222247;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); }
+    .postify2 .postify__item__content--user {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 5px;
+      margin-left: 0; }
+      .postify2 .postify__item__content--user li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #fff; }
+        .postify2 .postify__item__content--user li a {
+          text-transform: capitalize;
+          color: #fff;
+          text-decoration: none; }
+    .postify2 .postify__item__content--title h3 {
+      margin-bottom: 0; }
+      .postify2 .postify__item__content--title h3 a {
+        color: #fff;
+        margin-bottom: 0; }
+    .postify2 .postify__item__content--description p {
+      color: #fff;
+      margin-bottom: 10px; }
+    .postify2 .postify__item__content--meta {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      background-color: #28222247;
+      padding: 5px 10px;
+      border-radius: 30px; }
+      .postify2 .postify__item__content--meta a {
+        color: #fff;
+        margin-bottom: 0; }
+        .postify2 .postify__item__content--meta a::after {
+          background-color: #fff; }
+
+.postify3 .postify__item {
+  padding-top: 30px; }
+  .postify3 .postify__item--thumbnail img {
+    transition: 0.3s; }
+  .postify3 .postify__item__content {
+    padding-top: 10px; }
+    .postify3 .postify__item__content--meta {
+      padding: 0 30px; }
+      .postify3 .postify__item__content--meta a {
+        padding-left: 0; }
+        .postify3 .postify__item__content--meta a:after {
+          display: none; }
+    .postify3 .postify__item__content--title h3 {
+      padding: 0 30px;
+      margin-bottom: 25px;
+      font-size: 22px;
+      font-weight: 700; }
+      .postify3 .postify__item__content--title h3 a {
+        transition: 0.3s; }
+
+.postify4 .postify__item--category a {
+  border-radius: 30px; }
+
+.postify4 .postify__item--thumbnail {
+  position: relative; }
+
+.postify4 .postify__item__content {
+  padding-top: 22px; }
+  .postify4 .postify__item__content--meta {
+    position: absolute;
+    bottom: 0px;
+    left: 24px;
+    background-color: #4F868F;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px; }
+    .postify4 .postify__item__content--meta strong {
+      display: block;
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      margin: 0;
+      line-height: 1; }
+    .postify4 .postify__item__content--meta::after {
+      display: none; }
+  .postify4 .postify__item__content--description p {
+    margin-bottom: 15px; }
+  .postify4 .postify__item__content--button a {
+    border-radius: 30px; }
+
+.postify5 .postify__item--thumbnail {
+  position: relative; }
+
+.postify5 .postify__item--category a {
+  background-color: #fff;
+  color: #14141F;
+  font-weight: 600; }
+
+.postify5 .postify__item__content {
+  padding-top: 20px; }
+  .postify5 .postify__item__content--meta {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #4F868F;
+    text-align: center;
+    text-decoration: none;
+    color: #fff; }
+    .postify5 .postify__item__content--meta a {
+      font-size: 16px; }
+  .postify5 .postify__item__content--description p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080; }
+
+.postify__blog__list1 .postify__item--thumbnail img {
+  height: 310px;
+  max-height: 310px;
+  width: 100%;
+  object-fit: cover; }
+
+.postify__blog__list1 .postify__item__content--title h3 a {
+  font-size: 25px; }
+
+.postify__blog__list1 .postify__item__user {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 60px 1fr;
+  align-items: center; }
+  .postify__blog__list1 .postify__item__user img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover; }
+  .postify__blog__list1 .postify__item__user--info {
+    margin-bottom: 8px; }
+    .postify__blog__list1 .postify__item__user--info h4 {
+      text-transform: capitalize; }
+    .postify__blog__list1 .postify__item__user--info p {
+      margin-bottom: 0; }
+
+.postify__blog__list2 .postify__item__content--title h3 a {
+  font-size: 25px; }
+
+.postify__blog__list2 .postify__item--thumbnail img {
+  height: 310px;
+  max-height: 310px;
+  width: 100%;
+  object-fit: cover; }
+
+.postify__blog__list4 .postify__item__content--title h3 a {
+  font-size: 25px; }
+
+.postify__blog__list4 .postify__item__content--meta {
+  left: 0;
+  width: 70px;
+  height: 70px;
+  font-size: 14px; }
+  .postify__blog__list4 .postify__item__content--meta span {
+    font-size: 25px; }
+
+.postify__blog__list4 .postify__item--thumbnail img {
+  height: 310px;
+  max-height: 310px;
+  width: 100%;
+  object-fit: cover; }
+
+.postify__blog__list4 .postify__item__content--title h3 a {
+  font-size: 25px; }
+
+.postify__blog__list4 .postify__item__content--meta {
+  left: 0;
+  width: 70px;
+  height: 70px;
+  font-size: 14px; }
+  .postify__blog__list4 .postify__item__content--meta span {
+    font-size: 25px; }
+
+.postify__blog__list4 .postify__item--thumbnail img {
+  height: auto;
+  width: 100%;
+  object-fit: cover; }
+
+.postify__blog__list5 .postify__item--thumbnail img {
+  height: auto;
+  width: 100%;
+  object-fit: cover; }
+
+.postify__blog__list5 .postify__item__content--title h3 a {
+  font-size: 25px; }
+
+.postify__blog__list5 .postify__item__content--meta {
+  display: flex; }
+  .postify__blog__list5 .postify__item__content--meta ul {
+    display: flex;
+    gap: 8px; }
+    .postify__blog__list5 .postify__item__content--meta ul li {
+      list-style: none; }
+      .postify__blog__list5 .postify__item__content--meta ul li a {
+        color: #4F868F;
+        font-weight: 500;
+        font-size: 14px; }
+        .postify__blog__list5 .postify__item__content--meta ul li a.postify__item__content--tag {
+          background: #e7efff;
+          color: #4F868F;
+          padding: 4px 8px;
+          border-radius: 3px;
+          font-weight: 600;
+          font-size: 14px;
+          margin: 0;
+          margin-bottom: 20px; }
+        .postify__blog__list5 .postify__item__content--meta ul li a i {
+          margin-right: 5px; }
+        .postify__blog__list5 .postify__item__content--meta ul li a:after {
+          display: none; }
+
+.postify__blog__list5 .postify__item--category a {
+  color: #14141F;
+  background-color: #fff; }
+  .postify__blog__list5 .postify__item--category a i {
+    margin-right: 5px;
+    color: #14141F;
+    font-size: 15px; }
